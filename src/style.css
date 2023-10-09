@@ -1,0 +1,56 @@
+/* Root */
+:root {
+	--background: #FDF0F0;
+	--header: #111111;
+	--primary-text: #191717;
+	--secondary-text: #F1EFEF;
+	--primary-color: #CCC8AA;
+	--secondary-color: #CCC8AA;
+	--button: #F1B4BB;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--primary-text);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Header */
+
+header {
+  min-height: 100px;
+  padding: 40px;
+
+  background: var(--header);
+  color: var(--secondary-text);
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 50px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: var(--secondary-text);
+}
+
+/* Main content */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 10px;
+}
+
+main section {
+  max-width: 1200px;
+}

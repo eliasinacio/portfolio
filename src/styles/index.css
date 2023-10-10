@@ -1,0 +1,20 @@
+/* Root */
+:root {
+	--blue-1: #001524;
+	--green-1: #445D48;
+	--green-2: #D6CC99;
+	--white-1: #FDE5D4;
+	--white-2: #F1EFEF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--white-2);
+  color: var(--blue-1);
+  font-family: Ubuntu;
+}

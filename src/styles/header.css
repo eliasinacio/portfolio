@@ -1,0 +1,24 @@
+/* Header */
+
+header {
+    min-height: 100px;
+    padding: 40px;
+  
+    background: var(--blue-1);
+  
+    color: var(--white-1);
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+  }
+  
+  header nav a {
+    text-decoration: none;
+    color: var(--secondary-text);
+  }
+  

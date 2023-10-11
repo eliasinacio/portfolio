@@ -1,17 +1,52 @@
 /* Main content */
+
 main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  
-    gap: 10px;
-  }
-  
-  main section {
-    max-width: 1440px;
-  }
-  
-  #about-me {
-    padding: 50px 20px;
-    line-height: 24px;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 10px;
+}
+
+main section {
+  max-width: 1440px;
+}
+
+/* About me */
+
+#about-me {
+  line-height: 24px;
+
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#about-me span {
+  font-family: Ubuntu;
+  font-size: 1em;
+  line-height: 1.5em;
+  font-weight: 300;
+}
+
+#about-me .name {
+  display: block;
+  font-size: 8em;
+  line-height: 1em;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  font-weight: normal;
+}
+
+#about-me .job {
+  display: block;
+  font-size: 3em;
+  line-height: 1.5em;
+  font-weight: normal;
+}
+
+#about-me > div {
+  margin-top: 50px;
+}

@@ -86,27 +86,43 @@ h2 {
 .container {
   width: 100%;
   display: grid;
-  grid-template: "skills skills item3 item4"
-    "item5 item6 item7 item8"
-    "item9 item10 item11 item12";
+  grid-template: "html-css javascript skills typescript react"
+    "item5 item6 item7 item8 item9"
+    "item10 item11 item11 item12 item12";
 } 
 
 .item {
   min-height: 200px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: var(--green-2);
+
+}
+
+.html-css {
+  grid-area: html-css;
+}
+
+.javascript {
+  grid-area: javascript;
+  background-color: #363636;
 }
 
 .skills {
   grid-area: skills;
-  text-align: center;
 }
 
-.item3 {
-  grid-area: item3;
+.typescript {
+  grid-area: typescript;
   background-color: #363636;
 }
 
-.item4 {
-  grid-area: item4;
+.react {
+  background: var(--white-1);
+  grid-area: react;
 }
 
 .item5 {

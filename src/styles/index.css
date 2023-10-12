@@ -5,7 +5,8 @@
 	--green-1: #445D48;
 	--green-2: #D6CC99;
 	--white-1: #FDE5D4;
-	--white-2: #F1EFEF;
+	--white-2: #e4e1e7;
+	--white-3: #F1EFEF;
 }
 
 * {
@@ -13,6 +14,9 @@
   padding: 0;
   box-sizing: border-box;
   user-select: none;
+
+  border: none;
+  outline: none;
 }
 
 body {

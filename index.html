@@ -12,13 +12,24 @@
   <link rel="stylesheet" href="src/styles/index.css">
   <link rel="stylesheet" href="src/styles/header.css">
   <link rel="stylesheet" href="src/styles/main.css">
-  <link rel="stylesheet" href="src/styles/media-query.css">
   <title>Portfolio</title>
 </head>
 
 <body>
   <header>
+    <button class="menu"> <!-- toggle menu -->
+      <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" viewBox="0 0 50 50"
+        style="fill:#FFFFFF;">
+        <path d="M 5 8 A 2.0002 2.0002 0 1 0 5 12 L 45 12 A 2.0002 2.0002 0 1 0 45 8 L 5 8 z M 5 23 A 2.0002 2.0002 0 1 0 5 27 L 45 27 A 2.0002 2.0002 0 1 0 45 23 L 5 23 z M 5 38 A 2.0002 2.0002 0 1 0 5 42 L 45 42 A 2.0002 2.0002 0 1 0 45 38 L 5 38 z"></path>
+      </svg>
+    </button>
+
     <nav>
+      <a href="/">
+        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 24 24">
+          <path d="M 12 2 A 1 1 0 0 0 11.289062 2.296875 L 1.203125 11.097656 A 0.5 0.5 0 0 0 1 11.5 A 0.5 0.5 0 0 0 1.5 12 L 4 12 L 4 20 C 4 20.552 4.448 21 5 21 L 9 21 C 9.552 21 10 20.552 10 20 L 10 14 L 14 14 L 14 20 C 14 20.552 14.448 21 15 21 L 19 21 C 19.552 21 20 20.552 20 20 L 20 12 L 22.5 12 A 0.5 0.5 0 0 0 23 11.5 A 0.5 0.5 0 0 0 22.796875 11.097656 L 12.716797 2.3027344 A 1 1 0 0 0 12.710938 2.296875 A 1 1 0 0 0 12 2 z"></path>
+        </svg>
+      </a>
       <a href="#about-me">Sobre mim</a>
       <a href="#knowledges">Conhecimentos</a>
       <a href="#portfolio">Portfolio</a>
@@ -27,26 +38,47 @@
   </header>
 
   <main>
-    <article id="about-me">
+    <article id="home">
       <span class="presentation">
         <span>Olá, eu sou o</span>
-        <span class="name">Elias Chavier</span>
+        <h1 class="name">Elias Chavier</h1>
         <span class="job">Desenvolvedor Fullstack</span>
-        <span>tenho <span class="age">21</span> anos e sou de Juazeiro do Norte, Ceará, Brasil.</span>
         <p>
-          Amo música, pixel art e jogos. Meus hobbies são ler, ouvir ou toTento como hobbies jogar, tocar violão, assistir One piece e de vez em quando tento fazer uma pixel art.
-        Estudo programação e desenvolvimento web desde 2019 e estou cursando Análise e Desenvolvimento de Sistemas na Uninter.</p>
+          Tenho <span class="age">21</span> anos e amo música, livros, jogos, pixel art e animes.
+        </p>
       </span>
+      
+    </article>
+
+    <article id="about-me">
+      <h2>Sobre mim</h2>
+      
+      <p>
+        Sou de Juazeiro do Norte, município do interior do Ceará. <br>
+        Estudo programação voltada para web desde 2019 e atuo com desenvolvimento desde 2021. <br>
+        Sou bastante eclético, gosto de ouvir diferentes estilos de música, experimentar coisas diferentes. <br>
+        Meus hobbies favoritos são ler, tocar violão, jogar e fazer pixel arts.
+      </p>
       
     </article>
 
     <article id="knowledges">
       <h2>Conhecimentos</h2>
 
-      <div>
-        <section></section>
-        <section></section>
-      </div>
+      <div class="container">
+          <div class="item item1">teste</div>
+          <div class="item item2">teste</div>
+          <div class="item item3">teste</div>
+          <div class="item item4">teste</div>
+          <div class="item item5">teste</div>
+          <div class="item item6">teste</div>
+          <div class="item item7">teste</div>
+          <div class="item item8">teste</div>
+          <div class="item item9">teste</div>
+          <div class="item item10">teste</div>
+          <div class="item item11">teste</div>
+          <div class="item item12">teste</div>
+        </div>
     </article>
 
     <article id="portfolio">

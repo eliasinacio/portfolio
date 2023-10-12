@@ -60,7 +60,7 @@ h2 {
 
 /* Sobre mim */
 #about-me {
-  padding: 120px 10px;
+  padding: 150px 10px;
 
   background: var(--green-1);
 
@@ -76,14 +76,17 @@ h2 {
 
 /* Conhecimentos */
 #knowledges {
-  margin-top: 120px;
-  padding: 20px;
+  padding-top: 150px;
+}
+
+#knowledges h2 {
+  margin-bottom: 100px;
 }
 
 .container {
   width: 100%;
   display: grid;
-  grid-template: "item1 item2 item3 item4"
+  grid-template: "skills skills item3 item4"
     "item5 item6 item7 item8"
     "item9 item10 item11 item12";
 } 
@@ -92,14 +95,9 @@ h2 {
   min-height: 200px;
 }
 
-.item1 {
-  grid-area: item1;
-  background-color: #904545;
-}
-
-.item2 {
-  grid-area: item2;
-  background-color: #363636;
+.skills {
+  grid-area: skills;
+  text-align: center;
 }
 
 .item3 {

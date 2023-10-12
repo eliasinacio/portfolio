@@ -1,4 +1,4 @@
-/* Main content */
+/* Main */
 
 main {
   display: flex;
@@ -8,11 +8,11 @@ main {
   gap: 10px;
 }
 
-main section {
+main article {
   max-width: 1440px;
 }
 
-/* About me */
+/* Sobre min */
 
 #about-me {
   padding: 50px 20px;
@@ -32,13 +32,16 @@ main section {
   font-weight: 300;
 }
 
+/* Meu nome principal */
 #about-me .name {
   display: block;
   font-size: 8em;
   line-height: 1em;
   text-decoration: underline;
   text-decoration-thickness: 3px;
+  text-underline-offset: 15px;
   font-weight: normal;
+  color: var(--blue-1-opacity-70);
 }
 
 #about-me .job {
@@ -46,8 +49,16 @@ main section {
   font-size: 3em;
   line-height: 1.5em;
   font-weight: normal;
+  color: var(--blue-1-opacity-70);
 }
 
 #about-me > div {
   margin-top: 50px;
+}
+
+/* Conhecimentos */
+
+#knowledges {
+  height: 100vh;
+  padding-top: 120px;
 }

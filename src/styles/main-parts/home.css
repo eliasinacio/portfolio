@@ -1,0 +1,51 @@
+/* Home */
+#home {
+    padding: 50px 20px;
+
+    height: 90vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#home span {
+    width: 100%;
+    max-width: 1240px;
+    font-family: Ubuntu;
+    font-size: 1em;
+    font-weight: 300;
+}
+
+#home .name {
+    display: block;
+    margin-top: 10px;
+    font-size: 8em;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 15px;
+    font-weight: normal;
+    color: var(--blue-1-opacity-70);
+}
+
+#home .job {
+    display: block;
+    font-size: 3em;
+    font-weight: normal;
+    color: var(--blue-1-opacity-70);
+}
+
+#home p {
+    margin-top: 10px;
+}
+
+#home>div {
+    margin-top: 50px;
+}
+
+@media (max-width: 600px) {
+    #home .name {
+        font-size: 6em;
+    }
+}

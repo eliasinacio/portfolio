@@ -1,3 +1,8 @@
+@import url("./main-parts/home.css");
+@import url("./main-parts/about-me.css");
+@import url("./main-parts/knowledges.css");
+@import url("./main-parts/portfolio.css");
+
 /* Root */
 :root {
 	--blue-1: #001524;
@@ -17,6 +22,15 @@
 
   border: none;
   outline: none;
+
+  text-decoration: none;
+}
+
+h2 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 2em;
+  margin-bottom: 50px;
 }
 
 body {

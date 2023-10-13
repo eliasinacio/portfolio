@@ -1,0 +1,157 @@
+/* Conhecimentos */
+#knowledges {
+  padding-top: 150px;
+}
+
+#knowledges h2 {
+  margin-bottom: 100px;
+}
+
+.container {
+  width: 100%;
+  display: grid;
+  grid-template: "education education skills typescript react"
+    "item5 item6 item7 item8 item9"
+    "item10 item11 item11 item12 item12";
+}
+
+.grid-item {
+  min-height: 200px;
+  background: var(--green-2);
+}
+
+.education {
+  grid-area: education;
+
+  padding: 50px;
+
+  color: var(--blue-1);
+}
+
+.education h3 {
+  font-weight: 300;
+  font-size: 36px;
+}
+
+.education ul {
+  margin-top: 40px;
+  padding-left: 40px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.education li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+
+  list-style-type: none;
+}
+
+.education li img {
+  width: 72px;
+  height: 72px;
+
+  opacity: 0.8;
+}
+
+.education .certificate > a {
+  font-size: 20px;
+}
+
+.education a {
+  color: var(--blue-1);
+  text-decoration: underline;
+}
+
+.education p {
+  color: var(--blue-1);
+  font-weight: 300;
+  margin-top: 5px;
+}
+
+.javascript {
+  grid-area: javascript;
+  background-color: #363636;
+}
+
+.skills {
+  grid-area: skills;
+}
+
+.typescript {
+  grid-area: typescript;
+  background-color: #363636;
+}
+
+.react {
+  background: var(--white-1);
+  grid-area: react;
+}
+
+.item5 {
+  grid-area: item5;
+}
+
+.item6 {
+  grid-area: item6;
+}
+
+.item7 {
+  grid-area: item7;
+  background-color: #363636;
+}
+
+.item8 {
+  grid-area: item8;
+}
+
+.item9 {
+  grid-area: item9;
+}
+
+.item10 {
+  grid-area: item10;
+}
+
+.item11 {
+  grid-area: item11;
+  background-color: #363636;
+}
+
+.item12 {
+  grid-area: item12;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 100%;
+    display: grid;
+    grid-template: "education"
+      "skills"
+      "javascript"
+      "typescript"
+      "react"
+      "item5"
+      "item6"
+      "item7"
+      "item8"
+      "item9"
+      "item10"
+      "item11"
+      "item11"
+      "item12"
+      "item12";
+  }
+
+  .education {
+    padding: 50px 20px;
+  }
+
+  .education ul {
+    padding: 0 20px;
+  }
+}

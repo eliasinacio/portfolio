@@ -1,0 +1,15 @@
+/* Sobre mim */
+#about-me {
+    padding: 150px 10px;
+  
+    background: var(--green-1);
+  
+    color: var(--white-2);
+    text-align: center;
+  }
+  
+  #about-me p {
+    font-weight: 300;
+    line-height: 24px;
+  }
+  

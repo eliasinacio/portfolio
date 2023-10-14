@@ -7,33 +7,40 @@
   margin-bottom: 100px;
 }
 
-.container {
+
+.knowledges-grid {
   width: 100%;
+  padding: 0 100px;
   display: grid;
-  grid-template: "education education skills typescript react"
-    "item5 item6 item7 item8 item9"
-    "item10 item11 item11 item12 item12";
+  grid-template: "certificate education";
 }
 
-.grid-item {
+.knowledges-grid-item {
   min-height: 200px;
-  background: var(--green-2);
+  /* background: var(--green-2); */
+}
+
+.certificate {
+  grid-area: certificate;
 }
 
 .education {
   grid-area: education;
+}
 
+.knowledges-grid-item {
   padding: 50px;
 
   color: var(--blue-1);
 }
 
-.education h3 {
+.knowledges-grid-item h3 {
   font-weight: 300;
   font-size: 36px;
+  text-align: center;
 }
 
-.education ul {
+.knowledges-grid-item ul {
   margin-top: 40px;
   padding-left: 40px;
 
@@ -42,116 +49,59 @@
   gap: 20px;
 }
 
-.education li {
+.knowledges-grid-item li {
   display: flex;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
   gap: 20px;
 
   list-style-type: none;
 }
 
-.education li img {
-  width: 72px;
-  height: 72px;
+.knowledges-grid-item li img {
+  width: 84px;
+  height: 84px; 
 
   opacity: 0.8;
 }
 
-.education .certificate > a {
+.knowledges-grid-item .content {
+  padding: 10px 0;
+}
+
+.knowledges-grid-item .title {
+  font-weight: 500;
   font-size: 20px;
 }
 
-.education a {
+.knowledges-grid-item a {
   color: var(--blue-1);
   text-decoration: underline;
 }
 
-.education p {
+.knowledges-grid-item p {
   color: var(--blue-1);
   font-weight: 300;
   margin-top: 5px;
 }
 
-.javascript {
-  grid-area: javascript;
-  background-color: #363636;
-}
-
-.skills {
-  grid-area: skills;
-}
-
-.typescript {
-  grid-area: typescript;
-  background-color: #363636;
-}
-
-.react {
-  background: var(--white-1);
-  grid-area: react;
-}
-
-.item5 {
-  grid-area: item5;
-}
-
-.item6 {
-  grid-area: item6;
-}
-
-.item7 {
-  grid-area: item7;
-  background-color: #363636;
-}
-
-.item8 {
-  grid-area: item8;
-}
-
-.item9 {
-  grid-area: item9;
-}
-
-.item10 {
-  grid-area: item10;
-}
-
-.item11 {
-  grid-area: item11;
-  background-color: #363636;
-}
-
-.item12 {
-  grid-area: item12;
-}
-
-@media (max-width: 600px) {
-  .container {
-    width: 100%;
-    display: grid;
-    grid-template: "education"
-      "skills"
-      "javascript"
-      "typescript"
-      "react"
-      "item5"
-      "item6"
-      "item7"
-      "item8"
-      "item9"
-      "item10"
-      "item11"
-      "item11"
-      "item12"
-      "item12";
+@media (max-width: 880px) {
+  #knowledges h2 {
+    margin-bottom: 50px;
   }
 
-  .education {
+  .knowledges-grid {
+    width: 100%;
+    display: grid;
+    grid-template: "certificate"
+    "education";
+  }
+
+  .knowledges-grid-item {
     padding: 50px 20px;
   }
 
-  .education ul {
+  .knowledges-grid-item ul {
     padding: 0 20px;
   }
 }

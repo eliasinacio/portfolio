@@ -1,0 +1,39 @@
+#portfolio {
+
+}
+
+.portfolio-grid {
+    width: 100%;
+    display: grid;
+    grid-template: "project1-image project1"
+    "project2 project2-image"
+    "project3-image project3";
+}
+
+.portfolio-grid-item {
+
+}
+
+.project1-image {
+    grid-area: project1-image;
+}
+
+.project1 {
+    grid-area: project1;
+}
+
+.project2 {
+    grid-area: project2;
+}
+
+.project2-image {
+    grid-area: project2-image;
+}
+
+.project3-image {
+    grid-area: project3-image;
+}
+
+.project3 {
+    grid-area: project3;
+}

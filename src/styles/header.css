@@ -16,6 +16,7 @@ header {
   font-weight: 300;
 }
 
+/* Muda a cor do svg para o padrão do site */
 header svg path {
   fill: var(--blue-1);
 }
@@ -36,10 +37,7 @@ header nav a {
   color: var(--secondary-text);
 }
 
-.hidden {
-  visibility: hidden;
-}
-
+/* Media queries, para ser responsivo no mobile */
 @media (max-width: 600px) {
   header {
     height: 80px;
@@ -52,3 +50,5 @@ header nav a {
     font-size: 14px;
   }
 }
+
+/* No geral, display flex para posicionar os elementos e paddings para ajustar espaçamentos */

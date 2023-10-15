@@ -1,4 +1,7 @@
-/* Conhecimentos */
+/* Conhecimentos 
+ * Usei grid para utilizar melhor o espaço e facilitar na disposição do conteúdo no mobile 
+ */
+
 #knowledges {
   padding-top: 150px;
 }
@@ -7,7 +10,7 @@
   margin-bottom: 100px;
 }
 
-
+/* Define o gri e a disposição dos elementos do grid */
 .knowledges-grid {
   width: 100%;
   padding: 0 100px;
@@ -17,9 +20,9 @@
 
 .knowledges-grid-item {
   min-height: 200px;
-  /* background: var(--green-2); */
 }
 
+/* Estilizações dos elementos do grid */
 .certificate {
   grid-area: certificate;
 }
@@ -83,6 +86,7 @@
   margin-top: 5px;
 }
 
+/* Responsividade, ajuste na disposição e espaçamentos dos grids */
 @media (max-width: 880px) {
   #knowledges h2 {
     margin-bottom: 50px;

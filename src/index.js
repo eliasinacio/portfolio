@@ -1,5 +1,7 @@
-// calcular idade
-// para mostrar sempre automaticamente minha idade correta
+/** Calcular idade
+ *  Mostra sempre a minha idade correta no front
+ *  Calcula a diferença de tempo entre a data atual e a data que nasci
+ */
 
 const ageElement = document.querySelector('.age');
 

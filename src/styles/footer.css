@@ -1,18 +1,22 @@
+/* Footer */
 footer {
-    margin-top: 20px;
-    padding: 30px 0;
+    padding: 30px 0 40px;
 
     display: flex;
     justify-content: center;
     align-items: center;
 
     flex-direction: column;
+
+    background: var(--white-2);
+    border-top: 1px solid var(--blue-1);
 }
 
 footer img {
     width: 30px;
 }
 
+/* Links de contato do footer */
 footer .links {
     display: flex;
     justify-content: center;

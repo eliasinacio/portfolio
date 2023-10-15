@@ -2,23 +2,23 @@
  * Usei grid para utilizar melhor o espaço e facilitar na disposição do conteúdo no mobile 
  */
 
-#knowledges {
+#knowledge {
   padding-top: 150px;
 }
 
-#knowledges h2 {
+#knowledge h2 {
   margin-bottom: 100px;
 }
 
 /* Define o gri e a disposição dos elementos do grid */
-.knowledges-grid {
+.knowledge-grid {
   width: 100%;
   padding: 0 100px;
   display: grid;
   grid-template: "certificate education";
 }
 
-.knowledges-grid-item {
+.knowledge-grid-item {
   min-height: 200px;
 }
 
@@ -31,19 +31,19 @@
   grid-area: education;
 }
 
-.knowledges-grid-item {
+.knowledge-grid-item {
   padding: 50px;
 
   color: var(--blue-1);
 }
 
-.knowledges-grid-item h3 {
+.knowledge-grid-item h3 {
   font-weight: 300;
   font-size: 36px;
   text-align: center;
 }
 
-.knowledges-grid-item ul {
+.knowledge-grid-item ul {
   margin-top: 40px;
   padding-left: 40px;
 
@@ -52,7 +52,7 @@
   gap: 20px;
 }
 
-.knowledges-grid-item li {
+.knowledge-grid-item li {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -61,26 +61,26 @@
   list-style-type: none;
 }
 
-.knowledges-grid-item li img {
+.knowledge-grid-item li img {
   width: 84px;
   height: 84px; 
 }
 
-.knowledges-grid-item .content {
+.knowledge-grid-item .content {
   padding: 10px 0;
 }
 
-.knowledges-grid-item .title {
+.knowledge-grid-item .title {
   font-weight: 500;
   font-size: 20px;
 }
 
-.knowledges-grid-item a {
+.knowledge-grid-item a {
   color: var(--blue-1);
   text-decoration: underline;
 }
 
-.knowledges-grid-item p {
+.knowledge-grid-item p {
   color: var(--blue-1);
   font-weight: 300;
   margin-top: 5px;
@@ -88,11 +88,11 @@
 
 /* Responsividade, ajuste na disposição e espaçamentos dos grids */
 @media (max-width: 880px) {
-  #knowledges h2 {
+  #knowledge h2 {
     margin-bottom: 50px;
   }
 
-  .knowledges-grid {
+  .knowledge-grid {
     width: 100%;
     display: grid;
     padding: 0;
@@ -100,11 +100,11 @@
     "education";
   }
 
-  .knowledges-grid-item {
+  .knowledge-grid-item {
     padding: 50px 20px;
   }
 
-  .knowledges-grid-item ul {
+  .knowledge-grid-item ul {
     padding: 0 20px;
   }
 }

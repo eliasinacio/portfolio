@@ -1,7 +1,7 @@
 /* Importações de estilos de componentes, achei melhor importar num arquivo só do que importar todos no html */
 @import url("./main-components/home.css");
 @import url("./main-components/about-me.css");
-@import url("./main-components/knowledges.css");
+@import url("./main-components/knowledge.css");
 @import url("./main-components/portfolio.css");
 
 /* Cores usadas no site */

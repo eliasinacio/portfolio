@@ -1,7 +1,7 @@
-@import url("./main-parts/home.css");
-@import url("./main-parts/about-me.css");
-@import url("./main-parts/knowledges.css");
-@import url("./main-parts/portfolio.css");
+@import url("./main-components/home.css");
+@import url("./main-components/about-me.css");
+@import url("./main-components/knowledges.css");
+@import url("./main-components/portfolio.css");
 
 /* Root */
 :root {

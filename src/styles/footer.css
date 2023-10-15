@@ -21,3 +21,7 @@ footer .links {
     gap: 10px;
     margin-bottom: 5px;
 }
+
+footer a {
+    color: var(--blue-1);
+}

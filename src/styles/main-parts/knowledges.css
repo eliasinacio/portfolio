@@ -93,6 +93,7 @@
   .knowledges-grid {
     width: 100%;
     display: grid;
+    padding: 0;
     grid-template: "certificate"
     "education";
   }

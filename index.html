@@ -11,6 +11,7 @@
     rel="stylesheet">
   <link rel="stylesheet" href="src/styles/index.css">
   <link rel="stylesheet" href="src/styles/header.css">
+  <link rel="stylesheet" href="src/styles/footer.css">
   <title>Portfolio</title>
 </head>
 
@@ -102,7 +103,9 @@
       <h2>Portfolio</h2>
 
       <div class="portfolio-grid">
-        <div class="portfolio-grid-item project1-image"></div>
+        <div class="portfolio-grid-item project1-image">
+          <img src="./src/assets/dev-finances.png" alt=""">
+        </div>
         <div class="portfolio-grid-item project1">
           <h4 id="finances-title" class="card-title">Dev.finance$</h4>
           <p class="card-text">Realizado durante a Maratona Discover da <span id="rocketseat">Rocketseat</span>.
@@ -111,14 +114,18 @@
           <a href="https://eliasinacio.github.io/dev.finances/" target="_blank" class="btn btn-dark">Acesse</a>
         </div>
         <div class="portfolio-grid-item project2">
-          <h4 id="contacts-title" class="card-title">Contacts List</h4>
-          <p class="card-text">Gerenciador simples de Contatos. O usuário pode colocar imagem, telefone e email de
-            seus contatos e ser direcionado para o whatsapp ou para mandar um email para esse contato. Os contatos
-            são salvos localmente no navegador com localStorage.</p>
+          <h4 id="contacts-title" class="card-title">Chronodev</h4>
+          <p class="card-text">Estudo baseado no <a href="https://pomofocus.io/">pomofocus.io</a>. 
+            Consiste em um timer pomodoro, com um gerenciador de tasks. 
+            Utiliza React e salva as tasks em localStore para possibilitar o uso offline.</p>
           <a href="https://eliasinacio.github.io/dev.contacts/" target="_blank" class="btn btn-dark">Acesse</a>
         </div>
-        <div class="portfolio-grid-item project2-image"></div>
-        <div class="portfolio-grid-item project3-image"></div>
+        <div class="portfolio-grid-item project2-image">
+          <img src="./src/assets/chronodev.png" alt=""">
+        </div>
+        <div class="portfolio-grid-item project3-image">
+          <img src="./src/assets/wine-for-winners.png" alt=""">
+        </div>
         <div class="portfolio-grid-item project3">
           <h4 id="wine-title" class="card-title">Wine Landing Page</h4>
           <p class="card-text">Landing Page sobre vinhos. Foi desenvolvido usando <span id="bootstrap">Bootstrap
@@ -130,10 +137,20 @@
   </main>
 
   <footer id="contact">
-    <a id="profile-link" class="link-dark" href="https://github.com/eliasinacio/" target="_blank">GitHub</a>
-    <a id="profile-link" class="link-dark" href="https://instagram.com/eu_liaaas/" target="_blank">Instagram</a>
-    <a id="profile-link" class="link-dark" href="https://linkedin.com/in/elias-inacio0/" target="_blank">Linkedin</a>
+    <div class="links">
+      <a id="profile-link" class="link-dark" href="https://github.com/eliasinacio/" target="_blank">
+        <img src="./src/assets/github.png" alt="GitHub">
+      </a>
+      <a id="profile-link" class="link-dark" href="mailto:0.elias.inacio@gmail.com" target="_blank">
+        <img src="./src/assets/mail.png" alt="Email">
+      </a>
+      <a id="profile-link" class="link-dark" href="https://linkedin.com/in/elias-inacio0/" target="_blank">
+        <img src="./src/assets/linkedin.png" alt="Linkedin">
+      </a>
+    </div>
+    <p>Feito com 💚 por <a href="https://twitter.com/_oeliasdev" target="_blank">mim</a></p>
   </footer>
+
   <script src="/src/index.js"></script>
 </body>
 

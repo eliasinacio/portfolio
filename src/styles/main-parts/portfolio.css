@@ -11,7 +11,33 @@
 }
 
 .portfolio-grid-item {
+    text-align: center;
+}
 
+.portfolio-grid-item p {
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.portfolio-grid-item a {
+    color: var(--blue-1);
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.portfolio-grid-item img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.project1, .project2, .project3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px;
 }
 
 .project1-image {
@@ -36,4 +62,17 @@
 
 .project3 {
     grid-area: project3;
+}
+
+@media (max-width: 800px) {
+    .portfolio-grid {
+        width: 100%;
+        display: grid;
+        grid-template: "project1"
+        "project1-image"
+        "project2"
+        "project2-image"
+        "project3"
+        "project3-image";
+    }
 }
